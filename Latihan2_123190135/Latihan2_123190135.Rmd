@@ -37,7 +37,7 @@ Note that the `echo = FALSE` parameter was added to the code chunk to prevent pr
 Variasi tipe data pada R memfasilitasi keberagaman jenis variabel data. Sebagai contoh, terdapat data yang terdiri dari sekumpulan angka dan data lain yang berisi sekumpulan karakter. Pada contoh lain, ada pula data yang berbentuk tabel maupun kumpulan (list) angka sederhana. Dengan bantuan fungsi class, kita akan mendapatkan kemudahan dalam mendefinisikan tipe 
 data yang kita miliki: 
 
-```
+```{r}
 a <- 2 
 class(a) 
 #> [1] "numeric"
